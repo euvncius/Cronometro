@@ -13,7 +13,7 @@ function twoDigits(digit) {
 
 function start(){
     watch()
-    interval= cron=setInterval(watch, 1)
+    interval= cron=setInterval(watch, 1000)
 }
 
 function pause(){

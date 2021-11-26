@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +7,20 @@
         , initial-scale=1.0">
         <title>Cronômetro</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+        
     </head>
     <body>
+
         <div>
             <h1 id="watch">00:00:00</h1>
-            <button onclick="start();">Start</button>
-            <button onclick="pause();">Pause</button>
-            <button onclick="stop();">Stop</button>
+            <button class="start" onclick="start();">Start</button>
+            <button class="pause" onclick="pause();">Pause</button>
+            <button class="stop" onclick="stop();">Stop</button>
         </div>
+
         <script src="index.js"></script>
     </body>
 </html>

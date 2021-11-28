@@ -1,6 +1,6 @@
-div{
+.container{
     text-align: center;
-    width: 400px;
+    width: 300px;
     height: 200px;
     box-sizing: border-box;
     background-color: rgb(7, 7, 7);
@@ -31,4 +31,35 @@ button{
 
 button:hover{
     color: white;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    height: 260px;
+    text-align: center;
+    padding-top: 38%;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    color: white;
+}
+
+a{ 
+    font-size: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+i{
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 600px){
+
+    button{
+        color: white;
+    }
+
 }
